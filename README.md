@@ -37,4 +37,4 @@ Difference between TDD and BDD
 
 **Test-Driven Development** consists of unit tests that are testing if a single modular function is working properly.
 
-**Behavior-Drive Development** consists of tests that are testing if functions will work properly to the right behavior.
+**Behavior-Drive Development** consists of tests that are testing if functions will work properly to the behavior(ex. user input, timer).
