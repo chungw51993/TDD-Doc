@@ -18,9 +18,23 @@ Steps to TDD:
 4. Refactor - if necessary
 5. Repeat
 
-What you should test
+How to Unit test
+  * Test single function - test should be simple, quick to write and quick to run.
   * Unit tests work best for pure functions, function which
     1. Given the same input it will always return same output
-    2. Doesn't have any side-effects like mutate shared state
-  * API routes in the server
-  *
+    1. Doesn't have any side-effects like mutate shared state
+  * They should be isolated from dependencies - no network access and database access
+  * Test API routes in the server
+  * Test Database controller
+
+Some of the test suites
+  * Karma - Can't use it to test backend (AngularJS)
+  * Sinon - Can be used for spies, stubs, and mocks with any test framework
+  * Mocha - Can be used for backend and frontend
+  * Jest - Can be used for backend and frontend (React)
+
+Difference between TDD and BDD
+
+**Test-Driven Development** consists of unit tests that are testing if a single modular function is working properly.
+
+**Behavior-Drive Development** consists of tests that are testing if functions will work properly to the right behavior.
