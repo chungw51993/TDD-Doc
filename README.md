@@ -35,11 +35,16 @@ What to Unit Test
   * Test API routes in the server
   * Test Database controller
 
+Things to Keep in Mind
+  * Be sure to isolate the development environment from the test environment
+  * Use test data that is close to the production data
+  * Write test cases that are independent from other tests
+
 Some of the test suites
-  * Karma - Can't use it to test backend (AngularJS)
-  * Sinon - Can be used for spies, stubs, and mocks with any test framework
+  * Karma - Can't use it to test backend because it's only for browser-based code (AngularJS)
   * Mocha - Can be used for backend and frontend
   * Jest - Can be used for backend and frontend (React)
+  * Sinon - Can be used for spies, stubs, and mocks with any test framework
 
 Difference between TDD and BDD
 
