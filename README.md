@@ -1,9 +1,9 @@
 # Test Driven Development
 
-#### Test Driven Development is a software development method that interlaces unit testing, programming and refactoring.
+#### Test Driven Development is a software development method that interlaces unit testing, programming and refactoring. It's one way to think through your requirements or design. The goal of TDD is to make you think about how your functions are going to act and write clean code.
 
 Why is TDD important?
-  * Provides feedback that the software is still working
+  * Provides feedback that the functions are still working properly
   * Reduces the number of bugs in your program
   * Forces you to slow down and think
   * Encourages you to refactor your code
@@ -18,7 +18,15 @@ Steps to TDD:
 4. Refactor - if necessary
 5. Repeat
 
-How to Unit test
+What is Unit Test?
+
+**Unit test is a software testing where individual functions/units of a software are tested**
+
+  * It is the first level of testing
+  * It is usually for developers to check if they are breaking any function while developing
+  * The purpose is to validate that each unit of the software is working properly
+
+What to Unit Test
   * Test single function - test should be simple, quick to write and quick to run.
   * Unit tests work best for pure functions, function which
     1. Given the same input it will always return same output
